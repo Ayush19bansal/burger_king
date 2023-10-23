@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Change the font to your preference */
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: #f0f0f0; /* Change the background color */
+}
+
+.container {
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(107,45,253,1) 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5% 0;
+    transition: background 0.3s; /* Add a smooth transition effect */
+}
+
+.container:hover {
+    background: linear-gradient(90deg, rgba(107,45,253,1) 0%, rgba(34,193,195,1) 100%);
+}
+
+.orderbtn {
+    width: 10rem;
+    height: 50px;
+    background: #ff6600; /* Change the button background color */
+    color: #fff; /* Change the button text color */
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.orderbtn:hover {
+    background: #ff4400; /* Change the button background color on hover */
+}
+
+.item {
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0 5rem; /* Reduced padding for better spacing */
+    transition: transform 0.3s;
+}
+
+.item:hover {
+    transform: scale(1.05); /* Add a scale effect on hover */
+}
+
+.fooditems {
+    font-size: 2rem;
+    color: #333; /* Change the text color */
+}
+
+.fooditems input {
+    width: 30px;
+    height: 30px;
+}
+
+.fo div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.food-img {
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    display: block; /* Change to 'block' to make it visible */
+    transition: transform 0.3s;
+}
+
+.food-img:hover {
+    transform: rotate(15deg); /* Add a rotation effect on hover */
+}
+
+.oderid {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: #ff6600;
+    display: block; /* Change to 'block' to make it visible */
+}
